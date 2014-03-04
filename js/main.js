@@ -1,12 +1,9 @@
-alert("hay javascript!");
-console.log("i'm the console");
-function myFunct()
-{
-alert("you clicked!");
+function Car(){
 }
-var myVar= document.getElementsByTagName('h1');
-console.log(myVar);
-myVar.onclick=function()
+
+var myCar=new Car()
+var yourcar=new Car()
+if(myCar==yourCar)
 {
-alert("you clicked an h1");
-};
+alert("same")
+
