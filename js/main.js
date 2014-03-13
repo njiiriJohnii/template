@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $('h1').on("click",function(){
 	$("h1").css('color','blue');
 })
@@ -31,4 +32,14 @@ $("#answer").on("click",function(){
 		$("#message").text("Incorrect.");
 	}
 });
+=======
+function Car(){
+}
+
+var myCar=new Car()
+var yourcar=new Car()
+if(myCar==yourCar)
+{
+alert("same")
+>>>>>>> 1a630f851d97ec540009890aa91ce1ef759d0597
 
